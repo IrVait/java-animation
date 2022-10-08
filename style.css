@@ -1,0 +1,108 @@
+#area {
+    width: 99%;
+    height: 500px;
+    position: absolute;
+    
+}
+
+
+#sonicrun {
+    background:url("sonicrun.png") no-repeat;
+    height: 260px;
+  width: 134px;
+    position: absolute;
+     top: 61%;
+        left:200px;
+
+}
+
+#ziedas{
+    background: url(ziedas.png) no-repeat;
+    height: 150px;
+    width: 89px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    
+}
+    
+
+
+#tails{
+    background: url(tails.png) no-repeat;
+    height: 156px;
+    width: 181px;
+    top: 190px;
+    position: absolute;
+    
+}
+
+#bg {
+    background: url(background2.png) repeat-x;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+       
+    
+}
+#ground {
+    background: url(ground.png) repeat-x;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+#debesys {
+    background: url(debesys.png) repeat-x;
+    height: 200px;
+    width: 100%;
+    position:absolute;
+    top: 5%;
+}
+
+    
+#egg{
+        background: url(egg.png) no-repeat;
+        animation: egg linear 10s infinite;
+        height: 100px;
+        width: 100%;
+        position: absolute;
+        
+        background-size: 120px 120px;
+    }
+        
+@keyframes egg{
+        0% {background-position: 2000px; 100%;
+         margin-top: 30%}
+
+        100% {background-position: -100px; 100%;
+             margin-top: 10%
+         }
+    }    
+#sun {
+  width: 200px;
+  height: 200px;
+position: absolute;
+  background: url(sun.png) no-repeat;
+  animation: rise 24s ease infinite;
+}
+
+@keyframes rise{
+	0%{
+top:100%;
+left:-90%;
+transform: rotateZ(0);  
+}
+    	50%{
+top:15%;
+left: 50%           
+}
+100%{
+top:100%;
+    left:90%;
+        transform: rotateZ(360deg);  
+}
+    
+
+
+
